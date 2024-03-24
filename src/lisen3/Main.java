@@ -13,7 +13,9 @@ public class Main {
         while (true) {
             int oneByte = in.read(butt);
             if (oneByte != -1) {
-               System.out.println(ANSI_GREEN+"Kolvo "+ANSI_YELLOW+oneByte+ANSI_GREEN+",buff "+ANSI_YELLOW+ Arrays.toString(butt)+ANSI_GREEN+",str= "+ANSI_YELLOW+new String(butt,0,oneByte,"cp1251"));
+               System.out.println(ANSI_GREEN+"Kolvo "+ANSI_YELLOW+oneByte+ANSI_GREEN+",buff "+ANSI_YELLOW+
+                       Arrays.toString(butt)+ANSI_GREEN+",str= "+ANSI_YELLOW+
+                       new String(butt,0,oneByte,"cp1251"));
             } else {
                break;
             }
@@ -21,7 +23,7 @@ public class Main {
     }
     public static void main(String[]args)throws IOException
     {
-        String fileName ="C:/Users/Админ/IdeaProjects/Project8_1/src/lisen2/MyFile1.txt";
+        String fileName ="src/lisen2/MyFile1.txt";
         InputStream inFile =null;
         try
         {

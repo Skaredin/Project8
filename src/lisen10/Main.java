@@ -10,8 +10,8 @@ public class Main {
         try {
             br = new BufferedReader(
                     new InputStreamReader(
-                            new FileInputStream("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen9/MyFile1.txt"), "cp1251"));
-            out = new PrintWriter("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen10/MyFile1.txt", "cp1251");
+                            new FileInputStream("src/lisen9/MyFile1.txt"), "cp1251"));
+            out = new PrintWriter("src/lisen10/MyFile1.txt", "cp1251");
             int lineCount = 0;
             String s;
             while ((s = br.readLine()) != null) {

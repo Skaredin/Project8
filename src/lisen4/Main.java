@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         try {
 
-            File f1 = new File("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen4/numIsh.txt");
+            File f1 = new File("src/lisen4/numIsh.txt");
             f1.createNewFile();
             Scanner sc = new Scanner(System.in, "cp1251");
             DataOutputStream wr =
@@ -19,7 +19,7 @@ public class Main {
                 wr.writeFloat(sc.nextFloat());
             wr.flush();
             wr.close();
-            File f2=new File("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen4/numRez.txt"); f2.createNewFile();
+            File f2=new File("src/lisen4/numRez.txt"); f2.createNewFile();
             DataInputStream rd = new DataInputStream(new FileInputStream(f1.getAbsolutePath()));
             wr = new DataOutputStream(new FileOutputStream(f2.getAbsolutePath()));
             try{

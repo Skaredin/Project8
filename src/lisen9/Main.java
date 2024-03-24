@@ -9,10 +9,10 @@ public class Main {
         try {
             br = new BufferedReader(
                     new InputStreamReader(
-                            new FileInputStream("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen1/MyFile1.txt"), "cp1251"));
+                            new FileInputStream("src/lisen1/MyFile1.txt"), "cp1251"));
             bw = new BufferedWriter(
                     new OutputStreamWriter(
-                            new FileOutputStream("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen9/MyFile1.txt"), "cp1251"));
+                            new FileOutputStream("src/lisen9/MyFile1.txt"), "cp1251"));
             int lineCount = 0;
             String s;
             while ((s = br.readLine()) != null) {

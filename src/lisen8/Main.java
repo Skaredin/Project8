@@ -18,7 +18,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            InputStream inFile = new FileInputStream("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen8/MyFile1.txt");
+            InputStream inFile = new FileInputStream("src/lisen8/MyFile1.txt");
 
             Reader rFile = new InputStreamReader(inFile, "cp1251");
 

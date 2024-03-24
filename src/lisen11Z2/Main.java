@@ -12,10 +12,7 @@ public class Main {
         System.out.println("В ведите сколько будет рандомных чисел double");
         Scanner scanner1 = new Scanner(System.in);
         int k = Integer.parseInt(scanner1.nextLine());
-
         AddFile(k);
-
-
         Scanner sc = new Scanner(new File("src/lisen11Z2/in.txt"));
         sc = new Scanner(sc.nextLine()).useDelimiter(" ");
         List<Double> dlist = new ArrayList<>();
@@ -34,8 +31,6 @@ public class Main {
     static void listPositiveDouble(List<Double> list, double val) {
         if (val > 0.0) list.add(val);
     }
-
-
    public static void AddFile(int k){
         Path path = Paths.get("src/lisen11Z2/in.txt");
 
@@ -50,8 +45,6 @@ public class Main {
             pri[i] = String.valueOf(result);
         }
         Arrays.sort(pri);
-
-
 
         try {
 

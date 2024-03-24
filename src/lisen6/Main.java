@@ -8,8 +8,8 @@ public class Main {
         Reader in = null;
         Writer out = null;
         try {
-            in = new FileReader("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen4/numRez.txt");
-            out = new FileWriter("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen4/numRez.txt", true);
+            in = new FileReader("src/lisen4/numish.txt");
+            out = new FileWriter("src/lisen4/numRez.txt", true);
 
             int oneByte;
             while ((oneByte = in.read()) != -1) {

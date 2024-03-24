@@ -8,8 +8,8 @@ public class Main {
         BufferedReader br = null;
         BufferedWriter out = null;
         try {
-            br = new BufferedReader(new FileReader("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen4/numRez.txt"), 1024);
-            out = new BufferedWriter(new FileWriter("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen7/numRez.txt"));
+            br = new BufferedReader(new FileReader("src/lisen4/numIsh.txt"), 1024);
+            out = new BufferedWriter(new FileWriter("src/lisen7/numRez_7.txt"));
             int lineCount = 0;
             String s;
             while ((s = br.readLine())!=null)

@@ -21,7 +21,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         try {
-            InputStream imFile = new FileInputStream("C:/Users/Админ/IdeaProjects/Project8_1/src/lisen2/MyFile1.txt");
+            InputStream imFile = new FileInputStream("src/lisen2/MyFile1.txt");
 
             readAllByte(imFile);
             System.out.print("\n\n\n");
