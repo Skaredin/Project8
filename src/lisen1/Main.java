@@ -6,18 +6,18 @@ public class Main {
     public static void main(String[] args) {
         try {
 
-            File f1=new File("C:\\Users\\Админ\\IdeaProjects\\Project8_1\\src\\lisen1\\MyFile1.txt");
+            File f1=new File("src/lisen1/MyFile1.txt");
             f1.createNewFile();
             if (f1.exists()) {
 
                 System.out.println("Создан!!!!");
                 System.out.println("Полный путь1: " + f1.getAbsolutePath());
             }
-            File f2=new File("C:\\Users\\Админ\\IdeaProjects\\Project8_1\\src\\lisen1\\MyFile2.txt");
+            File f2=new File("src/lisen1/MyFile2.txt");
             f2.createNewFile();
             System.out.println( "Полный путь 2: "+ f2.getAbsolutePath());
 
-            File f3=new File("C:\\Users\\Админ\\IdeaProjects\\Project8_1\\src\\lisen1\\Papka1\\Papka2\\Papka3");
+            File f3=new File("src/lisen1/Papka1/Papka2/Papka3");
             f3.mkdirs();
             System.out.println("Полный путь 3: "+ f3.getAbsolutePath());
 
